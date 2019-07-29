@@ -1,4 +1,4 @@
-//
+// swift-tools-version:5.0
 //  Package.swift
 //  SwiftJava
 //
@@ -11,6 +11,6 @@ import PackageDescription
 let package = Package(
     name: "java_swift",
     dependencies: [
-        .Package(url: "https://github.com/SwiftJava/CJavaVM.git", "1.1.3"),
-        ]
+        .package(url: "https://github.com/SwiftJava/CJavaVM.git", from: "1.1.4"),
+    ]
 )
