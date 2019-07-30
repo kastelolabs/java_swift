@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CJavaVM",
+        "repositoryURL": "https://github.com/kastelolabs/CJavaVM.git",
+        "state": {
+          "branch": "swift5",
+          "revision": "3697ed754052ef1feb54926a4e51e975be4cccb7",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

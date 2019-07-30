@@ -10,7 +10,18 @@ import PackageDescription
 
 let package = Package(
     name: "java_swift",
+    products: [
+      .library(name: "java_swift", targets: ["java_swift"])
+    ],
     dependencies: [
-        .package(url: "https://github.com/SwiftJava/CJavaVM.git", from: "2.4.0"),
+        .package(url: "https://github.com/kastelolabs/CJavaVM.git", .branch("swift5")),
+    ],
+    targets: [
+      .target(
+        name: "java_swift",
+        dependencies: [
+          "CJavaVM"
+        ]
+      )
     ]
 )
